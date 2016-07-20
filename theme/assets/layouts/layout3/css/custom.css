@@ -1,1 +1,39 @@
 /* here you can put your own css to customize and override the theme */
+/***
+Pre-Header and pre-header elements
+***/
+.pre-header {
+	color: #616b76;
+	border-bottom: 1px solid #eee;
+	padding-top: 10px;
+	line-height: 1.2;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	background: #fff;
+}
+.pre-header a {
+	color: #616b76;
+}
+.pre-header a:hover {
+	color: #E02222;
+}
+.pre-header a:focus {
+	text-decoration: none;
+}
+.pre-header li {
+	padding-left: 11px;
+	padding-right: 15px;
+	border-right: solid 1px #d8d8d8;
+}
+.pre-header li:last-child {
+	border: none;
+}
+.additional-info li:first-child {
+	padding-left: 0;
+}
+.additional-nav li:last-child {
+	padding-right: 0;
+}
+.pre-header .fa {
+	margin-right: 4px;
+}
