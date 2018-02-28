@@ -1,0 +1,116 @@
+/* here you can put your own css to customize and override the theme */
+/*.page-header .page-header-top .search-form {
+      background: #38414c; }*/
+.page-header .page-header-top .search-form .input-group {
+    /*background: #38414c; */
+}
+      .page-header .page-header-top .search-form .input-group .form-control {
+          color: #616d7d;
+              border: 1px solid #c2cad8 !important;
+          /*background: #38414c; */
+      }
+.page-header .page-header-top .search-form .input-group .form-control::-moz-placeholder {
+            color: #5f6a7a;
+            opacity: 1; 
+}
+          .page-header .page-header-top .search-form .input-group .form-control:-ms-input-placeholder {
+            color: #5f6a7a; }
+          .page-header .page-header-top .search-form .input-group .form-control::-webkit-input-placeholder {
+            color: #5f6a7a; }
+        .page-header .page-header-top .search-form .input-group .input-group-btn .btn.submit > i {
+          color: #616d7d; }
+
+
+
+
+
+ .page-header .page-header-top .search-form {
+      /*position: relative;*/
+      /*display: inline-block;*/
+      float: right;
+      width: 176px;
+      transition: width 0.4s;
+      margin-top: 8px;
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      -ms-border-radius: 4px;
+      -o-border-radius: 4px;
+      border-radius: 4px; }
+      .page-header .page-header-top .search-form .input-group {
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -o-border-radius: 4px;
+        border-radius: 4px; }
+        .page-header .page-header-top .search-form .input-group .form-control {
+          border: 0;
+          font-size: 13px;
+          padding-right: 20px;
+          font-weight: 300; }
+          .page-header .page-header-top .search-form .input-group .form-control:hover {
+            cursor: pointer; }
+        .page-header .page-header-top .search-form .input-group .input-group-btn .btn.submit {
+          padding: 0;
+          height: 34px;
+          z-index: 3;
+          position: relative;
+          top: 10px;
+          right: 11px; }
+          .page-header .page-header-top .search-form .input-group .input-group-btn .btn.submit > i {
+            font-size: 15px; }
+      .page-header .page-header-top .search-form.open {
+        width: 300px !important;
+        transition: width 0.4s; }
+        .page-header .page-header-top .search-form.open .input-group .form-control {
+          text-indent: 0; }
+          .page-header .page-header-top .search-form.open .input-group .form-control:hover {
+            cursor: text; }
+        .page-header .page-header-top .search-form.open .input-group .input-group-btn .btn.submit {
+          margin-left: 0; }
+
+.page-header .page-header-top .search-form {
+        float: none !important;
+        width: auto;
+        margin: 0 0 20px 0; }
+        .page-header .page-header-top .search-form.open {
+          width: auto !important; }
+        .page-header .page-header-top .search-form .input-group .form-control {
+          height: 38px; }
+          .page-header .page-header-top .search-form .input-group .form-control:hover {
+            cursor: text; }
+        .page-header .page-header-top .search-form .input-group .input-group-btn .btn.submit {
+          height: 38px;
+          width: 44px;
+          top: 0;
+          right: 0; }
+          .page-header .page-header-top .search-form .input-group .input-group-btn .btn.submit i {
+            position: relative;
+            top: 13px; }                    
+.page-header .page-header-top>.container{
+  /*margin-left: 0px !important;*/
+  /*margin-right: 0px !important;*/
+}
+
+.page-header .page-header-top .page-logo{
+  width:75px !important;
+}
+
+.page-header .page-header-top button{
+  height: 38px !important;
+}
+
+.margin-top-5{
+  margin-top: 5px !important;
+}
+.margin-top-18{
+  margin-top: 18px !important;
+}
+.margin-left-15{
+  margin-left: 15px !important;
+}
+.fc-theme-panel{
+  min-width: 200px !important;
+}
+.fc-page-header{
+  height: 75px !important;
+}
